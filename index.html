@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KlimKam</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.jfif">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img  style="width: 120px; margin-right: 80px;" src="./assets/logo.jfif" alt="">
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Offerings</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <img  style="width: 120px;" src="./assets/logo.jfif" alt="">
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Offerings</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Kawajdahal-modified.png" alt="Kawajdahal profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Kawaj Dahal</h1>
+        <p class="section__text__p2">Content Creator</p>
+        <div class="btn-container">
+         
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/Instagram-logo-PNG-black-large-size.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/klimkam.concepts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='"
+          />
+          <img
+            src="./kimphoto/youtubepng.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.youtube.com/@KlimKam'"
+          />
+          <img
+            src="./assets/facebook png.png"
+            alt="My Faceebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/profile.php?id=100077387802200'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Us</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/logo.jfif"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Starting the journey of marketing online</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Aim</h3>
+              <p>klimkam is your only friend to make your socials more robust.</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p class="justified-text">
+              At Klimkam, we specialize in elevating your brand's social presence through strategic marketing and innovative content creation. Our team of experts is dedicated to crafting compelling narratives and visually stunning content that resonates with your audience and amplifies your online impact. Whether you're looking to boost engagement, drive traffic, or build a loyal community, Klimkam is here to help you achieve your goals with tailored solutions that make your brand stand out in the digital landscape. Let us help you create a powerful and lasting connection with your audience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore Our</p>
+      <h1 class="title">Offerings</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <p class="justified-text" >At Klimkam, we offer a comprehensive suite of services designed to elevate your brand’s presence and impact in the digital world. Imagine walking into a store where every shelf is stocked with tailored solutions to amplify your brand's voice—our Social Media Strategy Development is like our custom-fit suits, perfectly tailored to your needs for maximum impact. Our Content Creation service is akin to our exclusive, high-quality products, crafted to captivate and engage your audience with visually stunning and compelling narratives. Think of our Brand Storytelling as our flagship item, creating deep emotional connections that resonate with your customers and keep them coming back for more. Our Digital Marketing Campaigns are the strategic promotions that drive traffic and boost engagement, ensuring your brand stands out in a crowded marketplace. With our Audience Engagement and Community Building efforts, we’re not just interacting; we’re nurturing and growing a loyal customer base that feels personally connected to your brand. Our Performance Analytics are like our after-sales support, continuously refining and enhancing your strategy based on real-time feedback. Whether you’re looking to collaborate with influencers to expand your reach or need expert Creative Consultation for the perfect design, Klimkam provides all the tools and expertise to help your brand shine brightly in the digital landscape. Let us be your partner in creating a powerful and lasting connection with your audience, making your brand not just visible, but unforgettable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img style="margin-top: 50px;"
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="/kimphoto/1.jpeg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project One</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.instagram.com/reel/C-jX5fqtee9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='"
+                >
+                  Watch AD
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./kimphoto/2.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Two</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.instagram.com/reel/C-XGr9DotEP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='"
+                >
+                  Watch AD
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="/kimphoto/3.jpeg"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <div class="btn-container">
+                <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.instagram.com/reel/C-RJeUJoU6y/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='"
+              >
+                Watch AD
+              </button> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact" style="margin-top: 5rem;">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="/kimphoto/call.jpg"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="#contact info">0415 228 697</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Offerings</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Klimkam. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+  </body>
+</html>
+
